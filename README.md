@@ -9,14 +9,17 @@ The Supreme Court judgment pdfs are very repetitive
 
 1)
 ![alt text](https://i.ibb.co/7C5wKJH/1.jpg)
+
 Initially, the pdf starts with basic information that is centrally aligned, it is connected to the main text by the word 'judgment' 
 
-2)
+3)
 ![alt text](https://i.ibb.co/ThDn8dm/2.jpg)
+
 The second kind of data available is the main text written normally in a justified style
 
-3)
+5)
 ![alt text](https://i.ibb.co/cY1bZtH/3.jpg)
+
 The third kind of text available to us is center aligned written only in some part of the center
 
 ---
@@ -47,6 +50,7 @@ I tried adjusting the gaps between the letter by providing spacing but that mess
 ## Final Result-
 
 ![alt text](https://i.postimg.cc/VLTRsfLD/14.jpg)
+
 After some tweaking such as changing the screen resolution, instead of printing image I printed the letter at a coordinate. the x coordinate was averaged. I tried to align the y coordinates a straight line.
 
 The code writes the html in the output.html file.
