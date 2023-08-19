@@ -39,6 +39,15 @@ The model in approach 2 in already trained and produces a file in examples that 
 ## Works for all kind of document
 
 This involves first converting the pdf to images.
-Training a model such that it seeing the white spacing using opencv, then calculating the spaces it need to leave such that it covers the white space, the font size can also be adjusted with this approach. 
-It is done through edge-detection techniques, we can make egdes around each text and obtain the position wrt page.
+Then using python library pytesseract to detect the letters, then i calculated the absolute postion of that letter with respect to the page borders. I then put those letter in a html file woth the absolute coordinates.
+![alt text](https://i.postimg.cc/Pr67Wnfw/12.jpg)
 
+![alt text](https://i.postimg.cc/Y2dRVfcc/13.jpg)
+
+## Final Result-
+
+![alt text](https://i.postimg.cc/VLTRsfLD/14.jpg)
+After some tweaking such as changing the screen resolution, instead of priting image i printed the ltter at a cordinate. the x cordinate was averaged. I tried to align the y coordinates a straight line.
+
+The code writes the html in the output.html file.
+This can be further improved by better cv techniques and rifing it. We can add ml model to it so that the accuracy of the data can be improved.
