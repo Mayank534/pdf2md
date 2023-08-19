@@ -24,7 +24,7 @@ What I thought was training a model so that it recognizes what is is the heading
 
 
 ## Approach 2
-### Using Opencv
+### Using CV
 ## Works for all kinds of document
 
 This involves first converting the pdf to images.
